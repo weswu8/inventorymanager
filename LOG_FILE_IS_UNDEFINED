@@ -1,0 +1,139 @@
+2016-07-15 15:22:35.654  INFO 56501 --- [main] c.e.f.InventoryManagerApplication        : Starting InventoryManagerApplication on acbc32a4f125.ant.amazon.com with PID 56501 (/Users/wuwesley/Downloads/workspace/InventoryManager/target/classes started by wuwesley in /Users/wuwesley/Downloads/workspace/InventoryManager)
+2016-07-15 15:22:35.658  INFO 56501 --- [main] c.e.f.InventoryManagerApplication        : No active profile set, falling back to default profiles: default
+2016-07-15 15:22:35.730  INFO 56501 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Jul 15 15:22:35 CST 2016]; root of context hierarchy
+2016-07-15 15:22:36.320  INFO 56501 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [memcached.xml]
+2016-07-15 15:22:37.220  INFO 56501 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-07-15 15:22:37.233  INFO 56501 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-07-15 15:22:37.235  INFO 56501 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-07-15 15:22:37.331  INFO 56501 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-07-15 15:22:37.331  INFO 56501 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1607 ms
+2016-07-15 15:22:37.634  INFO 56501 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-07-15 15:22:37.639  INFO 56501 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-07-15 15:22:37.640  INFO 56501 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-07-15 15:22:37.641  INFO 56501 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-07-15 15:22:37.641  INFO 56501 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-07-15 15:22:37.735  WARN 56501 --- [main] net.rubyeye.xmemcached.XMemcachedClient  : XMemcachedClient is using Text protocol
+2016-07-15 15:22:37.779  INFO 56501 --- [main] c.g.c.yanf4j.nio.impl.SelectorManager    : Creating 8 reactors...
+2016-07-15 15:22:37.788  WARN 56501 --- [main] c.g.c.y.core.impl.AbstractController     : The Controller started at localhost/127.0.0.1:0 ...
+2016-07-15 15:22:37.790  WARN 56501 --- [main] net.rubyeye.xmemcached.XMemcachedClient  : You are using connection pool for xmemcached client,it's not recommended unless you have test it that it can boost performance in your app.
+2016-07-15 15:22:37.888  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:22:37.891  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:22:37.893  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:22:37.896  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:22:37.899  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:22:37.902  WARN 56501 --- [main] net.rubyeye.xmemcached.XMemcachedClient  : You are using connection pool for xmemcached client,it's not recommended unless you have test it that it can boost performance in your app.
+2016-07-15 15:22:37.903  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:22:37.907  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:22:37.911  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:22:37.914  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:22:37.916  WARN 56501 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:22:38.101  INFO 56501 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Jul 15 15:22:35 CST 2016]; root of context hierarchy
+2016-07-15 15:22:38.178  INFO 56501 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[POST],produces=[application/json]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.addGoods(com.ecommerce.flashsales.GoodsInventory)
+2016-07-15 15:22:38.179  INFO 56501 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{sku}],methods=[GET]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.getGoodsBySku(java.lang.String)
+2016-07-15 15:22:38.180  INFO 56501 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[PUT],produces=[application/json]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.updateGood(com.ecommerce.flashsales.GoodsInventory)
+2016-07-15 15:22:38.180  INFO 56501 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{sku}],methods=[DELETE]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.removeGoodBySku(java.lang.String)
+2016-07-15 15:22:38.184  INFO 56501 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-07-15 15:22:38.185  INFO 56501 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-07-15 15:22:38.208  INFO 56501 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-15 15:22:38.208  INFO 56501 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-15 15:22:38.247  INFO 56501 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-15 15:22:38.379  INFO 56501 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-07-15 15:22:38.381  INFO 56501 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'memcachedClient' has been autodetected for JMX exposure
+2016-07-15 15:22:38.386  INFO 56501 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'memcachedClient': registering with JMX server as MBean [net.rubyeye.xmemcached:name=memcachedClient,type=XMemcachedClient]
+2016-07-15 15:22:38.454  INFO 56501 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-07-15 15:22:38.460  INFO 56501 --- [main] c.e.f.InventoryManagerApplication        : Started InventoryManagerApplication in 3.066 seconds (JVM running for 4.023)
+2016-07-15 15:22:50.152  INFO 56501 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-07-15 15:22:50.152  INFO 56501 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-07-15 15:22:50.170  INFO 56501 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2016-07-15 15:22:50.688  INFO 56501 --- [http-nio-8080-exec-1] c.ecommerce.flashsales.InventoryManager  : This is an info message
+2016-07-15 15:22:50.689  WARN 56501 --- [http-nio-8080-exec-1] c.ecommerce.flashsales.InventoryManager  : This is a warn message
+2016-07-15 15:22:50.690 ERROR 56501 --- [http-nio-8080-exec-1] c.ecommerce.flashsales.InventoryManager  : This is an error message
+2016-07-15 15:22:52.120  INFO 56501 --- [http-nio-8080-exec-2] c.ecommerce.flashsales.InventoryManager  : This is an info message
+2016-07-15 15:22:52.120  WARN 56501 --- [http-nio-8080-exec-2] c.ecommerce.flashsales.InventoryManager  : This is a warn message
+2016-07-15 15:22:52.121 ERROR 56501 --- [http-nio-8080-exec-2] c.ecommerce.flashsales.InventoryManager  : This is an error message
+2016-07-15 15:27:33.732  INFO 56501 --- [RMI TCP Connection(2)-10.50.250.50] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2016-07-15 15:27:33.733  INFO 56501 --- [RMI TCP Connection(2)-10.50.250.50] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Jul 15 15:22:35 CST 2016]; root of context hierarchy
+2016-07-15 15:27:33.735  INFO 56501 --- [RMI TCP Connection(2)-10.50.250.50] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-07-15 15:27:33.735  INFO 56501 --- [RMI TCP Connection(2)-10.50.250.50] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2016-07-15 15:27:34.144  WARN 56501 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:27:34.145  WARN 56501 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:27:34.146  WARN 56501 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:27:34.548  WARN 56501 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:27:34.550  WARN 56501 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:27:34.551  WARN 56501 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:27:34.969  WARN 56501 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:27:34.970  WARN 56501 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:27:34.972  WARN 56501 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:27:34.973  WARN 56501 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:27:34.974  INFO 56501 --- [RMI TCP Connection(2)-10.50.250.50] c.g.c.y.core.impl.AbstractController     : Controller has been stopped.
+2016-07-15 15:27:53.074  INFO 56510 --- [main] c.e.f.InventoryManagerApplication        : Starting InventoryManagerApplication on acbc32a4f125.ant.amazon.com with PID 56510 (/Users/wuwesley/Downloads/workspace/InventoryManager/target/classes started by wuwesley in /Users/wuwesley/Downloads/workspace/InventoryManager)
+2016-07-15 15:27:53.078  INFO 56510 --- [main] c.e.f.InventoryManagerApplication        : No active profile set, falling back to default profiles: default
+2016-07-15 15:27:53.159  INFO 56510 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Jul 15 15:27:53 CST 2016]; root of context hierarchy
+2016-07-15 15:27:53.769  INFO 56510 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [memcached.xml]
+2016-07-15 15:27:54.702  INFO 56510 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-07-15 15:27:54.714  INFO 56510 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-07-15 15:27:54.716  INFO 56510 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-07-15 15:27:54.811  INFO 56510 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-07-15 15:27:54.811  INFO 56510 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1655 ms
+2016-07-15 15:27:55.083  INFO 56510 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-07-15 15:27:55.086  INFO 56510 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-07-15 15:27:55.087  INFO 56510 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-07-15 15:27:55.087  INFO 56510 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-07-15 15:27:55.088  INFO 56510 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-07-15 15:27:55.184  WARN 56510 --- [main] net.rubyeye.xmemcached.XMemcachedClient  : XMemcachedClient is using Text protocol
+2016-07-15 15:27:55.224  INFO 56510 --- [main] c.g.c.yanf4j.nio.impl.SelectorManager    : Creating 8 reactors...
+2016-07-15 15:27:55.232  WARN 56510 --- [main] c.g.c.y.core.impl.AbstractController     : The Controller started at localhost/127.0.0.1:0 ...
+2016-07-15 15:27:55.233  WARN 56510 --- [main] net.rubyeye.xmemcached.XMemcachedClient  : You are using connection pool for xmemcached client,it's not recommended unless you have test it that it can boost performance in your app.
+2016-07-15 15:27:55.317  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:27:55.320  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:27:55.323  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:27:55.327  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:27:55.329  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6080
+2016-07-15 15:27:55.332  WARN 56510 --- [main] net.rubyeye.xmemcached.XMemcachedClient  : You are using connection pool for xmemcached client,it's not recommended unless you have test it that it can boost performance in your app.
+2016-07-15 15:27:55.333  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:27:55.336  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:27:55.338  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:27:55.340  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:27:55.342  WARN 56510 --- [Xmemcached-Reactor-0] c.g.c.y.core.impl.AbstractController     : Add a session: 127.0.0.1:6081
+2016-07-15 15:27:55.511  INFO 56510 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Jul 15 15:27:53 CST 2016]; root of context hierarchy
+2016-07-15 15:27:55.576  INFO 56510 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[POST],produces=[application/json]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.addGoods(com.ecommerce.flashsales.GoodsInventory)
+2016-07-15 15:27:55.577  INFO 56510 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{sku}],methods=[GET]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.getGoodsBySku(java.lang.String)
+2016-07-15 15:27:55.577  INFO 56510 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[PUT],produces=[application/json]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.updateGood(com.ecommerce.flashsales.GoodsInventory)
+2016-07-15 15:27:55.578  INFO 56510 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{sku}],methods=[DELETE]}" onto public com.ecommerce.flashsales.GoodsInventory com.ecommerce.flashsales.InventoryManager.removeGoodBySku(java.lang.String)
+2016-07-15 15:27:55.580  INFO 56510 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-07-15 15:27:55.580  INFO 56510 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-07-15 15:27:55.601  INFO 56510 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-15 15:27:55.601  INFO 56510 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-15 15:27:55.636  INFO 56510 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-15 15:27:55.771  INFO 56510 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-07-15 15:27:55.773  INFO 56510 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'memcachedClient' has been autodetected for JMX exposure
+2016-07-15 15:27:55.778  INFO 56510 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'memcachedClient': registering with JMX server as MBean [net.rubyeye.xmemcached:name=memcachedClient,type=XMemcachedClient]
+2016-07-15 15:27:55.844  INFO 56510 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-07-15 15:27:55.850  INFO 56510 --- [main] c.e.f.InventoryManagerApplication        : Started InventoryManagerApplication in 3.04 seconds (JVM running for 3.656)
+2016-07-15 15:28:03.688  INFO 56510 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-07-15 15:28:03.688  INFO 56510 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-07-15 15:28:03.715  INFO 56510 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2016-07-15 15:28:04.343  INFO 56510 --- [http-nio-8080-exec-1] c.ecommerce.flashsales.InventoryManager  : This is an info message
+2016-07-15 15:28:04.345  WARN 56510 --- [http-nio-8080-exec-1] c.ecommerce.flashsales.InventoryManager  : This is a warn message
+2016-07-15 15:28:04.345 ERROR 56510 --- [http-nio-8080-exec-1] c.ecommerce.flashsales.InventoryManager  : This is an error message
+2016-07-15 15:28:05.367  INFO 56510 --- [http-nio-8080-exec-2] c.ecommerce.flashsales.InventoryManager  : This is an info message
+2016-07-15 15:28:05.367  WARN 56510 --- [http-nio-8080-exec-2] c.ecommerce.flashsales.InventoryManager  : This is a warn message
+2016-07-15 15:28:05.367 ERROR 56510 --- [http-nio-8080-exec-2] c.ecommerce.flashsales.InventoryManager  : This is an error message
+2016-07-15 15:28:06.494  INFO 56510 --- [http-nio-8080-exec-3] c.ecommerce.flashsales.InventoryManager  : This is an info message
+2016-07-15 15:28:06.495  WARN 56510 --- [http-nio-8080-exec-3] c.ecommerce.flashsales.InventoryManager  : This is a warn message
+2016-07-15 15:28:06.496 ERROR 56510 --- [http-nio-8080-exec-3] c.ecommerce.flashsales.InventoryManager  : This is an error message
+2016-07-15 15:34:36.254  INFO 56510 --- [RMI TCP Connection(2)-10.50.250.50] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2016-07-15 15:34:36.256  INFO 56510 --- [RMI TCP Connection(2)-10.50.250.50] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Jul 15 15:27:53 CST 2016]; root of context hierarchy
+2016-07-15 15:34:36.258  INFO 56510 --- [RMI TCP Connection(2)-10.50.250.50] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-07-15 15:34:36.259  INFO 56510 --- [RMI TCP Connection(2)-10.50.250.50] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2016-07-15 15:34:36.647  WARN 56510 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:34:36.648  WARN 56510 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:34:37.054  WARN 56510 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:34:37.055  WARN 56510 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:34:37.057  WARN 56510 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:34:37.462  WARN 56510 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:34:37.464  WARN 56510 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:34:37.464  WARN 56510 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:34:37.465  WARN 56510 --- [xmemcached-read-thread-1-thread-2] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6081
+2016-07-15 15:34:37.465  WARN 56510 --- [xmemcached-read-thread-1-thread-1] c.g.c.y.core.impl.AbstractController     : Remove a session: 127.0.0.1:6080
+2016-07-15 15:34:37.466  INFO 56510 --- [RMI TCP Connection(2)-10.50.250.50] c.g.c.y.core.impl.AbstractController     : Controller has been stopped.

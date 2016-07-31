@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> 
+<!-- http://code.google.com/p/xmemcached/wiki/Spring_Integration -->  
+<bean id="memcachedClientBuilder" class="net.rubyeye.xmemcached.XMemcachedClientBuilder">  
+  <constructor-arg>  
+      <list>  
+          <bean class="java.net.InetSocketAddress">  
+              <constructor-arg>  
+                  <value>127.0.0.1</value>  
+              </constructor-arg>  
+              <constructor-arg>  
+                  <value>6080</value>  
+              </constructor-arg>  
+          </bean>  
+          <bean class="java.net.InetSocketAddress">  
+              <constructor-arg>  
+                  <value>127.0.0.1</value>  
+              </constructor-arg>  
+              <constructor-arg>  
+                  <value>6081</value>  
+              </constructor-arg>  
+          </bean>  
+      </list>  
+  </constructor-arg>  
+  <!-- 权重配置 -->  
+  <constructor-arg>  
+      <list>  
+          <value>1</value>  
+          <value>1</value>  
+      </list>  
+  </constructor-arg>  
+  <!--</property>-->  
+  <property name="connectionPoolSize" value="5"/>  
+  <property name="commandFactory">  
+        <bean class="net.rubyeye.xmemcached.command.TextCommandFactory" />  
+  </property>  
+  <property name="sessionLocator">  
+        <bean class="net.rubyeye.xmemcached.impl.KetamaMemcachedSessionLocator" />
+  </property>  
+  <property name="transcoder">  
+        <bean class="net.rubyeye.xmemcached.transcoders.SerializingTranscoder" />  
+  </property>  
+
+</bean>  
+<!-- Use factory bean to build memcached client -->  
+<bean  
+    id="memcachedClient"  
+    factory-bean="memcachedClientBuilder"  
+    factory-method="build"  
+    destroy-method="shutdown" />  
+</beans>  
