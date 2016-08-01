@@ -38,7 +38,10 @@ import net.rubyeye.xmemcached.exception.MemcachedException;
 @RestController
 @RequestMapping("/")
 public class  InventoryManager {	
-    @Autowired
+	/*** indicate current version of this micro service ***/
+	public final String cVersion = "1.0";
+	
+	@Autowired
     private MemcachedClient memcachedClient;
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private final String allItemsKey = "xAllInventoryKey";
@@ -274,6 +277,7 @@ public class  InventoryManager {
 		inventoryValidationR.setGoodsSKU(sku);
 		inventoryValidationR.setGoodsQuantity(quantity);
 		inventoryValidationR.setIsAllowed(false);
+		inventoryValidationR.setVersion(cVersion);
 		long startTime = System.currentTimeMillis();
 		/*** generate request parameters */
 		JSONObject paramsJSON = new JSONObject();

@@ -14,6 +14,7 @@ public class InventoryValidationR {
 	public int totalQuantity;
 	public boolean isAllowed = true;
 	public boolean isThrottled = false;
+	public String version = "1.0";
 
 	
 	public String getSessionID() {
@@ -53,11 +54,18 @@ public class InventoryValidationR {
 	public void setIsThrottled(boolean isThrottled) {
 		this.isThrottled = isThrottled;
 	}
+	public String getVersion() {
+		return version;
+	}
+	public void setVersion(String version) {
+		this.version = version;
+	}
 	@Override
 	public String toString() {
 		return "InventoryValidationR [sessionID=" + sessionID + ", goodsSKU=" + goodsSKU + ", goodsQuantity="
 				+ goodsQuantity + ", totalQuantity=" + totalQuantity + ", isAllowed=" + isAllowed + ", isThrottled="
-				+ isThrottled + "]";
-	}	
+				+ isThrottled + ", version=" + version + "]";
+	}
+	
 		
 }
