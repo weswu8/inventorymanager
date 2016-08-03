@@ -7,7 +7,7 @@ public enum CurrentStep {
     POLICYCONTROLLER("3-Policy Controller Service"),
     INVENTORYMANAGER("4-Inventory Manager Service"),
     SHOPPINGCART("5-Shopping Cart Service"),
-    ALLSTEPS("5-All Steps");
+    ALLSTEPS("6-All Steps");
 
     private String msgBody;
 

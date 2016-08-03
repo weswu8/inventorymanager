@@ -1,2 +1,5 @@
-/target/
-/LOG_FILE_IS_UNDEFINED
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
