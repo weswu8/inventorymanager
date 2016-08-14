@@ -12,26 +12,18 @@
       <list>  
           <bean class="java.net.InetSocketAddress">  
               <constructor-arg>  
-                  <value>flashsales.w6lsby.0001.apse1.cache.amazonaws.com</value>  
+                  <value>127.0.0.1</value>  
               </constructor-arg>  
               <constructor-arg>  
-                  <value>8080</value>  
+                  <value>6080</value>  
               </constructor-arg>  
           </bean>  
           <bean class="java.net.InetSocketAddress">  
               <constructor-arg>  
-                  <value>flashsales.w6lsby.0002.apse1.cache.amazonaws.com</value>  
+                  <value>127.0.0.1</value>  
               </constructor-arg>  
               <constructor-arg>  
-                  <value>8080</value>  
-              </constructor-arg>  
-          </bean> 
-          <bean class="java.net.InetSocketAddress">  
-              <constructor-arg>  
-                  <value>flashsales.w6lsby.0003.apse1.cache.amazonaws.com</value>  
-              </constructor-arg>  
-              <constructor-arg>  
-                  <value>8080</value>  
+                  <value>6081</value>  
               </constructor-arg>  
           </bean>  
       </list>  
@@ -40,10 +32,9 @@
   <constructor-arg>  
       <list>  
           <value>1</value>  
-          <value>1</value> 
-          <value>1</value> 
+          <value>1</value>  
       </list>  
-  </constructor-arg>  
+  </constructor-arg>   
   <!--</property>-->  
   <property name="connectionPoolSize" value="5"/>  
   <property name="commandFactory">  
