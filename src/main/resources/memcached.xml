@@ -8,22 +8,30 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> 
 <!-- http://code.google.com/p/xmemcached/wiki/Spring_Integration -->  
 <bean id="memcachedClientBuilder" class="net.rubyeye.xmemcached.XMemcachedClientBuilder">  
-  <constructor-arg>  
+ <constructor-arg>  
       <list>  
           <bean class="java.net.InetSocketAddress">  
               <constructor-arg>  
-                  <value>127.0.0.1</value>  
+                  <value>flashsales.w6lsby.0001.apse1.cache.amazonaws.com</value>  
               </constructor-arg>  
               <constructor-arg>  
-                  <value>6080</value>  
+                  <value>8080</value>  
               </constructor-arg>  
           </bean>  
           <bean class="java.net.InetSocketAddress">  
               <constructor-arg>  
-                  <value>127.0.0.1</value>  
+                  <value>flashsales.w6lsby.0002.apse1.cache.amazonaws.com</value>  
               </constructor-arg>  
               <constructor-arg>  
-                  <value>6081</value>  
+                  <value>8080</value>  
+              </constructor-arg>  
+          </bean> 
+          <bean class="java.net.InetSocketAddress">  
+              <constructor-arg>  
+                  <value>flashsales.w6lsby.0003.apse1.cache.amazonaws.com</value>  
+              </constructor-arg>  
+              <constructor-arg>  
+                  <value>8080</value>  
               </constructor-arg>  
           </bean>  
       </list>  
@@ -32,7 +40,8 @@
   <constructor-arg>  
       <list>  
           <value>1</value>  
-          <value>1</value>  
+          <value>1</value> 
+          <value>1</value> 
       </list>  
   </constructor-arg>   
   <!--</property>-->  
