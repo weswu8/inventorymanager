@@ -40,8 +40,7 @@ Service API
 |Name |Path | Method  |  Request Body   |  Response Body  |
 |-----|-----|---------|-----------------|-----------------|
 |doInventoryValidation|/validate/sid/{sid}}/sku/{sku}}/quantity/{qty}|GET| None |{"sessionID":"sid00001","goodsSKU":"SKU0001","goodsQuantity":1,"totalQuantity":1000000,"isAllowed":true,"isThrottled":false,"version":"1.0"}|
-|addGoods|/add | POST | {"goodsSKU":"SKU0003","goodsQuantity":5,"goodsPrice":99.9}|{
-"goodsSKU": "SKU0003","goodsQuantity": 5,"goodsPrice": 99.9}|
+|addGoods|/add | POST | {"goodsSKU":"SKU0003","goodsQuantity":5,"goodsPrice":99.9}|{"goodsSKU": "SKU0003","goodsQuantity": 5,"goodsPrice": 99.9}|
 |findAllItems|/all | GET | None | [{"goodsSKU":"SKU0001","goodsQuantity":1000000,"goodsPrice":99}]|
 |getGoods|sku/{sid}| None | {"goodsSKU":"SKU0001","goodsQuantity":990000,"goodsPrice":45.9} |
 |removeGoods|/delete/sku/{sku}}|DELETE/{"goodsSKU":null,"goodsQuantity":0,"goodsPrice":0.0}|
