@@ -31,7 +31,8 @@ this micro service will manage the service discovery  and health mornitoring.
 
 System Architecture
 ====
-To-do
+![architecture](systopo.jpg  "architecture")
+
 
 
 Service API

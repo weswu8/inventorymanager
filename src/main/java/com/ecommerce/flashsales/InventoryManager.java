@@ -43,7 +43,7 @@ public class  InventoryManager {
 	
 	@Autowired
     private MemcachedClient memcachedClient;
-    private final Logger logger = LoggerFactory.getLogger("SystemLog");
+    private final Logger logger = LoggerFactory.getLogger(this.getClass().getName());
     private final String allItemsKey = "xAllInventoryKey";
     private final String xNameSpace = "InventoryManager";
 	FlashSalesAccessLogger fsAccessLogger = new FlashSalesAccessLogger();
