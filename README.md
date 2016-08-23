@@ -43,7 +43,7 @@ Service API
 |addGoods|/add | POST | {"goodsSKU":"SKU0003","goodsQuantity":5,"goodsPrice":99.9}|{"goodsSKU": "SKU0003","goodsQuantity": 5,"goodsPrice": 99.9}|
 |findAllItems|/all | GET | None | [{"goodsSKU":"SKU0001","goodsQuantity":1000000,"goodsPrice":99}]|
 |getGoods|sku/{sid}| GET| None | {"goodsSKU":"SKU0001","goodsQuantity":990000,"goodsPrice":45.9} |
-|removeGoods|/delete/sku/{sku}}|DELETE|{"goodsSKU":null,"goodsQuantity":0,"goodsPrice":0.0}|
+|removeGoods|/delete/sku/{sku}}|DELETE| None |{"goodsSKU":null,"goodsQuantity":0,"goodsPrice":0.0}|
 |updateGoods|/update|PUT|{"goodsSKU":"SKU0001","goodsQuantity":900000,"goodsPrice":99.9}|{"goodsSKU":"SKU0001","goodsQuantity":990000,"goodsPrice":45.9}|
 
 
